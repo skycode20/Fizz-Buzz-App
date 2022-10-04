@@ -22,7 +22,7 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
 
 // for loop to cycle through numbers
 let text = "";
-for (let i=0; i < numbers.length; i++) {
+for (let i=0; i <= numbers.length; i++) {
     // check to see if number can divide by 3, 5
     if (numbers[i] % 3 == 0)  {
 
@@ -44,6 +44,6 @@ for (let i=0; i < numbers.length; i++) {
     
     }
 
-    return console.log(numbers[i])
+    console.log(numbers[i])
 }
 
